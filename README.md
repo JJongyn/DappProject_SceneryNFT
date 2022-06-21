@@ -1,5 +1,14 @@
 # DappProject_SceneryNFT
 
+## 2022.06.22
+  * 새로운 smart contract 코드로 변경 -> nft.sol
+  * tokenOfOwnerByIndex(address owner, uint256 index)
+    - owner의 index token 목록에서 소유한 토큰 ID 반환
+  * 예시) 판매중인 token list에서 판매 완료 후 제거
+    - 판매완료 -> price = 0
+    - 판매 리스트 중 price = 0인 token 판별
+    - 마지막 index token과 바꾼 후 pop()
+
 ## 2022.06.21
   * node.js, web3 연동
     - web3 is not defined -> npm install web3
