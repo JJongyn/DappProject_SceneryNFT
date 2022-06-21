@@ -5,5 +5,6 @@
     - NFT minting, sale 
   * vs code -> remix local 옮기는 명령어
     - remixd -s . --remix-ide https://remix.ethereum.org
-  * src/index.js 오류 -> plugin-ws/package.json에서 main : src/index.js을 index.js으로 변경
+  * src/index.js 오류 
+    - plugin-ws/package.json에서 main : src/index.js을 index.js으로 변경
 
